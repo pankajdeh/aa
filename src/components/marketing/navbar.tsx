@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/functions";
-import { useClerk } from "@clerk/nextjs";
+// import { useClerk } from "@clerk/nextjs";
 import { ArrowRightIcon, XIcon } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from 'react';
@@ -13,7 +13,7 @@ import MobileMenu from "./mobile-menu";
 
 const Navbar = () => {
 
-    const { user } = useClerk();
+    // const { user } = useClerk();
 
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
